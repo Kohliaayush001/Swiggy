@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier{
+    /* border: 2px solid red; */
+    height: 150vh;
+    background-color: orangered;
+}
+.head{
+    /* border: 2px solid blue; */
+    height: 100px;
+}
+.left_head{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 350px;
+}
+.logo{
+    height: 80px;
+    width: 300px;
+    padding: 5px;
+}
+.right_head{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 900px;
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    padding-top: 30px;
+   
+}
+li{
+    list-style-type: none;
+}
+.icon1{
+    /* border: 1px solid pink; */
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 150px;
+    padding: 10px;  
+}
+.right_head>.icon1 li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.icon2{
+    /* border: 1px solid pink; */
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 350px;
+    padding: 10px;
+}
+.right_head>.icon2 li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.icon3{
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    left: 550px;
+    padding: 10px;
+}
+.right_head>.icon3 li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.icon4{
+    /* border: 1px solid pink; */
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 700px;
+    /* padding: 1px; */
+    padding-left: 50px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+.hero{
+    /* border: 2px solid goldenrod; */
+    height: 120vh;
+}
+.heading{
+    /* border: 2px solid goldenrod; */
+    height: 150px;
+    width: 800px;
+    position: relative;
+    left: 250px;
+    top: 100px;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.searchbar{
+    /* border: 2px solid grey; */
+    height:80px;
+    width: 800px;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+.search1{
+    /* border: 2px solid red; */
+    height:70px;
+    width: 300px;
+    margin-left: 40px;
+}
+.search2{
+    /* border: 2px solid blueviolet; */
+    height:70px;
+    width: 500px;
+    position: relative;
+    left: 340px;
+    top: -70px;
+}
+.search_box1{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    padding-left: 50px;
+
+}
+.search_box2{
+    height: 60px;
+    width: 450px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+}
+.mainbox{
+    /* border: 2px solid brown; */
+    height:200px;
+    width: 1000px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.box1{
+    /* border: 2px solid hotpink; */
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 15px;
+    /* top: 500px; */
+
+}
+.box2{
+    /* border: 2px solid hotpink; */
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 275px;
+    /* top: 500px; */
+}
+.box3{
+    /* border: 2px solid hotpink; */
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 525px;
+    /* top: 500px; */
+
+}
+.box4{
+    /* border: 2px solid hotpink; */
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 780px;
+    /* top: 500px; */
+}
+.img_div{
+    height:200px;
+    width: 200px;
+}
+
+.leftbox{
+    /* border: 2px solid black; */
+    height:500px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+}
+.rightbox{
+    /* border: 2px solid black; */
+    height:500px;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+.veggie{
+    height: 500px;
+    width: 300px;
+}
+.sushi{
+    height: 500px;
+    width: 300px;
+}
+.fa-arrow-up{
+    color: whitesmoke;
+}
+/* .fa-location-dot{
+    padding-top: 10px;
+}
+.fa-magnifying-glass{
+    margin-left: 450px;
+    padding-top: -30px;
+} */
